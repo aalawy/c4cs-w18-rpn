@@ -9,7 +9,7 @@ install:
    - pip install python-coveralls
 
 script:
-   - py.test --cov-report= --cov=rpn test_rpn.py
+   - py.test --cov-report=  test_rpn.py
    - make test
 
 
